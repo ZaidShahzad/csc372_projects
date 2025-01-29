@@ -1,0 +1,30 @@
+* {
+  background-color: black;
+  color: white;
+  text-align: center; /* 2nd: new css property */
+}
+
+h1,
+h2 /* Also added h2 */ {
+  font-family: "Georgia", serif;
+}
+
+li {
+  font-family: "Helvetica", serif;
+  font-size: 16px; /* 1st: new css property */
+}
+
+img {
+  padding: 5px;
+}
+
+.artist {
+  border: 1px solid red;
+}
+
+.spotlight {
+  padding: 10px;
+  border: 3px dotted yellow;
+  width: 300px;
+  text-align: center;
+}
