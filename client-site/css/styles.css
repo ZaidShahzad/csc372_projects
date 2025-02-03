@@ -1,0 +1,170 @@
+/* 
+
+  This is a mobile-first style approach.
+  All the default styles are for mobile. Then there are media queries for tablets and desktops.
+
+*/
+
+/* -----  Global Styles ----- */
+* {
+  /* Get rid of default browser padding and margin */
+  padding: 0px;
+  margin: 0px;
+}
+
+/* -----  Navbar Styles ----- */
+
+#navbar {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+  justify-content: space-between;
+  padding: 0px 30px 0px 30px;
+}
+
+#navbar-links {
+  display: flex;
+  gap: 20px;
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar-link:hover {
+  color: darkgreen;
+}
+
+/* -----  Hero Styles ----- */
+
+/* 
+
+  Information on how to center a div with CSS:
+  https://www.freecodecamp.org/news/how-to-center-a-div-with-css/
+*/
+
+#hero-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #fafafa;
+}
+
+#hero {
+  padding: 50px 0px 50px 0px;
+}
+
+#hero-image {
+  padding-top: 50px;
+  border-radius: 2%;
+}
+
+/* -----  Services Styles ----- */
+
+#services {
+  padding: 50px 0px 50px 0px;
+  text-align: center;
+  background-color: #caeec2;
+}
+
+#services-card-container {
+  padding-top: 25px;
+}
+
+.service-card {
+  padding: 40px;
+  background-color: #fafafa;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.service-card-description {
+  margin-top: 20px;
+}
+
+/* -----  Collections Styles ----- */
+
+#collections-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #fafafa;
+}
+
+#collections {
+  padding: 50px 0px 50px 0px;
+}
+
+.collection-container {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.collection-products {
+  margin-top: 25px;
+}
+
+.collection-product {
+  width: 300px;
+  height: 250px;
+  background-color: lightgray;
+  border-radius: 10px;
+  margin-top: 25px;
+}
+
+/* -----  Footer Styles ----- */
+
+#footer {
+  padding: 25px 0px 25px 0px;
+  text-align: center;
+  border-top: 1px solid lightgray;
+}
+
+/* Media Queries - Desktop Modified Styles */
+
+/* 
+
+
+  64rem is equivalent to 1024px or "lg" in Tailwind CSS
+  https://tailwindcss.com/docs/responsive-design
+
+*/
+@media (min-width: 64rem) {
+  /* -----  Hero Styles ----- */
+
+  #hero-container {
+    display: block;
+  }
+
+  #hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    padding: 50px 100px 50px 100px;
+  }
+
+  #hero-image {
+    padding-top: 50px;
+    border-radius: 2%;
+  }
+
+  /* -----  Collection Styles ----- */
+
+  .collection-products {
+    display: flex;
+    margin-top: 25px;
+  }
+
+  .collection-product {
+    width: 300px;
+    height: 250px;
+    background-color: lightgray;
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-right: 25px;
+  }
+}
