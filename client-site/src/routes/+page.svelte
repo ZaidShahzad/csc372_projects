@@ -8,6 +8,6 @@
 
 <Navbar />
 <Hero />
-<!-- <Services /> -->
+<Services />
 <ProductCollections />
 <Footer />

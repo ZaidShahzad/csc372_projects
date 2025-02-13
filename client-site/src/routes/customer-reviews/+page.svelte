@@ -4,7 +4,7 @@
 </script>
 
 <Navbar />
-<div class=" bg-white">
+<div class="bg-white">
 	<div class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
 		<div class="mx-auto mt-16 max-w-2xl text-center">
 			<h2 class="text-4xl font-semibold tracking-tight text-balance text-gray-900 sm:text-5xl">
