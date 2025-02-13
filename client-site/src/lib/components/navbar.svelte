@@ -13,7 +13,7 @@
 		<div class="flex lg:flex-1">
 			<a href="/" class="-m-1.5 p-1.5">
 				<span class="sr-only">Hayati Fits Logo</span>
-				<h1 class="text-2xl font-bold">Hayati Fits</h1>
+				<img src="/logo.png" alt="Hayati Fits Logo" class="h-32 w-32" />
 			</a>
 		</div>
 		<div class="flex lg:hidden">
