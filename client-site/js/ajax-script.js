@@ -105,15 +105,14 @@ function loadContactFormFromHTMLUsingJquery() {
 }
 
 // Load the appropriate content based on the document title (to tell which page we want to load content for)
-let documentTitle = document.title;
-if (documentTitle === "HayatiFits") {
+if (document.title === "HayatiFits") {
   // Home page
   loadServiceCardsFromXML();
   loadHeroTextFromJSON();
-} else if (documentTitle === "Customer Reviews") {
+} else if (document.title === "Customer Reviews") {
   // Customer Reviews page
   loadCustomerReviewsFromHTML();
-} else if (documentTitle === "Contact") {
+} else if (document.title === "Contact") {
   // Contact page
   loadContactFormFromHTMLUsingJquery();
 }
