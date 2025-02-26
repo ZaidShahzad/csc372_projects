@@ -16,7 +16,7 @@ mobileMenuContainer.hide();
 for (let i = 1; i <= 5; i++) {
   let heroImage = $(`#hero-image-${i}`);
   // Set there images
-  heroImage.children()[0].src = `/images/hero-image-${i}.png`;
+  heroImage.children()[0].src = `/client-site/images/hero-image-${i}.png`;
 
   // Fade in the hero image
   heroImage.hide().fadeIn("slow");
