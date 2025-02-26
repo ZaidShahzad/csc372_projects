@@ -17,7 +17,7 @@ function loadCustomerReviewsFromHTML() {
       this.responseText;
   };
 
-  xhttp.open("GET", "/ajax-load/mock-customer-reviews.html", true);
+  xhttp.open("GET", "/client-site/ajax-load/mock-customer-reviews.html", true);
   xhttp.send();
 }
 
@@ -60,7 +60,7 @@ function loadServiceCardsFromXML() {
     document.getElementById("service-cards-to-load-into").innerHTML = output;
   };
 
-  xhttp.open("GET", "/ajax-load/service-cards.xml", true);
+  xhttp.open("GET", "/client-site/ajax-load/service-cards.xml", true);
   xhttp.send();
 }
 
@@ -80,7 +80,7 @@ function loadHeroTextFromJSON() {
       jsonDoc.description;
   };
 
-  xhttp.open("GET", "/ajax-load/hero-text.json", true);
+  xhttp.open("GET", "/client-site/ajax-load/hero-text.json", true);
   xhttp.send();
 }
 
@@ -100,7 +100,7 @@ function loadContactFormFromHTMLUsingJquery() {
     contactFormToLoadInto.hide().fadeIn("slow");
   };
 
-  xhttp.open("GET", "/ajax-load/contact-form.html", true);
+  xhttp.open("GET", "/client-site/ajax-load/contact-form.html", true);
   xhttp.send();
 }
 
