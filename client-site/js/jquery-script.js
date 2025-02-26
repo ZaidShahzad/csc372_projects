@@ -2,6 +2,7 @@
 /* Mobile Menu Logic */
 /* ------------------------------ */
 
+let documentTitle = document.title;
 // Mobile menu button and container reference
 let openMobileMenuButton = $("#open-mobile-menu-button");
 let closeMobileMenuButton = $("#close-mobile-menu-button");
@@ -15,8 +16,10 @@ mobileMenuContainer.hide();
 // Fading in for hero images when the page loads
 for (let i = 1; i <= 5; i++) {
   let heroImage = $(`#hero-image-${i}`);
-  // Set there images
-  heroImage.children()[0].src = `/client-site/images/hero-image-${i}.png`;
+  if (documentTitle === "HayatiFits") {
+    // Set there images
+    heroImage.children()[0].src = `/client-site/images/hero-image-${i}.png`;
+  }
 
   // Fade in the hero image
   heroImage.hide().fadeIn("slow");
