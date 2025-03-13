@@ -24,7 +24,11 @@
 					class="relative flex transform flex-col overflow-hidden rounded-xl p-6 transition duration-300 hover:scale-105 hover:shadow-xl"
 				>
 					<div class="absolute inset-0">
-						<img src="" alt="" class="h-full w-full object-cover opacity-60" />
+						<enhanced:img
+							src="$lib/assets/embroidery.avif"
+							alt="Embroidery"
+							class="h-full w-full object-cover opacity-60"
+						/>
 						<div class="absolute inset-0 bg-gradient-to-t from-black/60 to-black/20" />
 					</div>
 					<dt class="relative flex items-center gap-x-3 text-base/7 font-semibold text-white">
@@ -55,7 +59,11 @@
 					class="relative flex transform flex-col overflow-hidden rounded-xl p-6 transition duration-300 hover:scale-105 hover:shadow-xl"
 				>
 					<div class="absolute inset-0">
-						<img src="" alt="" class="h-full w-full object-cover opacity-60" />
+						<enhanced:img
+							src="$lib/assets/heat-press.avif"
+							alt="Heat Press"
+							class="h-full w-full object-cover opacity-60"
+						/>
 						<div class="absolute inset-0 bg-gradient-to-t from-black/60 to-black/20" />
 					</div>
 					<dt class="relative flex items-center gap-x-3 text-base/7 font-semibold text-white">

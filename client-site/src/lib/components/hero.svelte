@@ -79,9 +79,9 @@
 								class="ml-auto w-44 flex-none space-y-8 pt-32 sm:ml-0 sm:pt-80 lg:order-last lg:pt-36 xl:order-none xl:pt-80"
 							>
 								<div class="group relative cursor-pointer">
-									<img
-										src=""
-										alt=""
+									<enhanced:img
+										src="$lib/assets/hero-image-1.avif"
+										alt="Hero Image 1	"
 										class="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg transition duration-300 group-hover:scale-105"
 									/>
 									<div
@@ -91,17 +91,17 @@
 							</div>
 							<div class="mr-auto w-44 flex-none space-y-8 sm:mr-0 sm:pt-52 lg:pt-36">
 								<div class="group relative cursor-pointer">
-									<img
-										src=""
-										alt=""
+									<enhanced:img
+										src="$lib/assets/hero-image-5.avif"
+										alt="Hero Image 5"
 										class="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg transition duration-300 group-hover:scale-105"
 									/>
 									<div class=""></div>
 								</div>
 								<div class="group relative cursor-pointer">
-									<img
-										src=""
-										alt=""
+									<enhanced:img
+										src="$lib/assets/hero-image-2.avif"
+										alt="Hero Image 2"
 										class="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg transition duration-300 group-hover:scale-105"
 									/>
 									<div
@@ -111,9 +111,9 @@
 							</div>
 							<div class="w-44 flex-none space-y-8 pt-32 sm:pt-0">
 								<div class="group relative cursor-pointer">
-									<img
-										src=""
-										alt=""
+									<enhanced:img
+										src="$lib/assets/hero-image-3.avif"
+										alt="Hero Image 3"
 										class="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg transition duration-300 group-hover:scale-105"
 									/>
 									<div
@@ -121,9 +121,9 @@
 									></div>
 								</div>
 								<div class="group relative cursor-pointer">
-									<img
-										src=""
-										alt=""
+									<enhanced:img
+										src="$lib/assets/hero-image-4.avif"
+										alt="Hero Image 4"
 										class="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg transition duration-300 group-hover:scale-105"
 									/>
 									<div
