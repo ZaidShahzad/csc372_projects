@@ -48,5 +48,11 @@
 		<p class="mt-8 text-center text-sm/6 text-gray-600 md:order-1 md:mt-0">
 			&copy; 2025-{currentYear} Hayati Fits, Inc. All rights reserved.
 		</p>
+		<p class="mt-8 text-center text-sm/6 text-gray-600 md:order-1 md:mt-0">
+			Developed by <a
+				href="https://www.instagram.com/hayatifits/"
+				class="text-gray-600 hover:text-gray-800">Zaid Shahzad (zaid_shahzad@uri.edu)</a
+			>
+		</p>
 	</div>
 </footer>
