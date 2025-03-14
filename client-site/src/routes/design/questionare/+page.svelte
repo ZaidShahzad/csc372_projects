@@ -8,7 +8,6 @@
 	let filteredProducts = $state<typeof data.catalog>([]);
 	let selectedImageIndex = $state<Record<string | number, number>>({});
 	let isLoading = $state(true);
-	console.log(data);
 
 	// Initialize selected image index for each product
 	onMount(() => {

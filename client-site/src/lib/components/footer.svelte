@@ -15,7 +15,7 @@
 					/>
 				</svg>
 			</a> -->
-			<a href="#" class="text-gray-600 hover:text-gray-800">
+			<a href="https://www.instagram.com/hayatifits/" class="text-gray-600 hover:text-gray-800">
 				<span class="sr-only">Instagram</span>
 				<svg class="size-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
 					<path
