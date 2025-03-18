@@ -5,7 +5,7 @@
 
 	// Import Svelte and Fabric.js dependencies
 	import { onMount } from 'svelte';
-	import { Canvas, ActiveSelection, Rect, Group, FabricObject, Image } from 'fabric';
+	import { Canvas, ActiveSelection, Group, FabricObject, Image } from 'fabric';
 
 	// Canvas state variables
 	let canvas: Canvas | null = null;
